@@ -12,10 +12,19 @@ print(10 // 3)  # int division
 print(10 % 3)
 print(10 ** 3)  # power, exponentiation
 
+# Precedence :
+# 1. Parenthesis
+# 2. Exponentiation
+# 3. Multiplication or division
+# 4. Addition or subtraction.
+
 x = 10
 x = x + 3
 x += 3
 print(x)
+
+x = (10 + 3) * 2 ** 2
+print(f"X: {x}")
 
 print(round(2.9))
 print(abs(-2.9))
