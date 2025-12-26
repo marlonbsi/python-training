@@ -1,4 +1,3 @@
-# Time: 2:59:00
 # Try block:
 
 try:
